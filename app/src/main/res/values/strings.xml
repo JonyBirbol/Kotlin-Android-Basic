@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Kotlin Android Basic</string>
+
+
+    <string name="button_1">Button Click, Toast, Toolbar</string>
+    <string name="button_1_1">Click to show Toast</string>
+
+    <string name="button_2">Button 2</string>
+
+
+    <string name="text_1">Learning Kotlin Basic</string>
+
+
 </resources>
