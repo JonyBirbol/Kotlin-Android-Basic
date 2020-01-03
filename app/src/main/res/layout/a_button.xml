@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginBottom="30dp"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".AButton">
 
@@ -20,10 +22,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <RelativeLayout
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
+            android:orientation="vertical"
             android:layout_marginEnd="15dp">
 
     <Button
@@ -36,9 +39,72 @@
         android:textAllCaps="false"
         android:textSize="14sp"/>
 
+            <Button
+                android:id="@+id/button1_12"
+                android:background="@color/light_green_100"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_1_12"
+                android:textAllCaps="false"
+                android:textSize="14sp"/>
 
+            <Button
+                android:id="@+id/button1_2"
+                android:background="@color/light_green_100"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_1_2"
+                android:textAllCaps="false"
+                android:textSize="14sp"/>
+            <Button
+                android:id="@+id/button1_3"
+                android:background="@color/light_green_100"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_1_3"
+                android:textAllCaps="false"
+                android:textSize="14sp"/>
+            <Button
+                android:id="@+id/button1_4"
+                android:background="@color/light_green_100"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_1_4"
+                android:textAllCaps="false"
+                android:textSize="14sp"/>
+            <Button
+                android:id="@+id/button1_5"
+                android:background="@color/light_green_100"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_1_5"
+                android:textAllCaps="false"
+                android:textSize="14sp"/>
+            <Button
+                android:id="@+id/button1_6"
+                android:background="@color/light_green_100"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_1_6"
+                android:textAllCaps="false"
+                android:textSize="14sp"/>
+            <Button
+                android:id="@+id/button1_7"
+                android:background="@color/light_green_100"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_1_7"
+                android:textAllCaps="false"
+                android:textSize="14sp"/>
 
-        </RelativeLayout>
+        </LinearLayout>
 
     </ScrollView>
 </RelativeLayout>

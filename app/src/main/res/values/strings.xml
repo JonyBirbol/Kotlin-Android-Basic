@@ -2,13 +2,52 @@
     <string name="app_name">Kotlin Android Basic</string>
 
 
-    <string name="button_1">Button Click, Toast, Toolbar</string>
-    <string name="button_1_1">Click to show Toast</string>
+    <string name="button_1">Toolbar, Toast, Snackbar, AlertDialog</string>
+    <string name="button_1_1">Click to show Toast-1</string>
+    <string name="button_1_12">Click to show Toast-2</string>
+    <string name="button_1_2">Click to show Snackbar-1</string>
+    <string name="button_1_3">Click to show Snackbar-2</string>
+    <string name="button_1_4">Click to show Snackbar-3</string>
+    <string name="button_1_5">Click to show AlertDialog-1</string>
+    <string name="button_1_6">Click to show AlertDialog-2</string>
+    <string name="button_1_7">Click to show AlertDialog-3</string>
 
-    <string name="button_2">Button 2</string>
-
+    <string name="button_2">RecyclerView, List View</string>
+    <string name="button_2_1">RecyclerView 1</string>
+    <string name="button_2_2">RecyclerView 2</string>
+    <string name="button_2_3">List View 1</string>
+    <string name="button_2_4">List View 2</string>
+    <string name="button_2_5">List View 3</string>
 
     <string name="text_1">Learning Kotlin Basic</string>
+
+
+    <string-array name="Colors">
+        <item name="color">Red</item>
+        <item name="color">Orange</item>
+        <item name="color">Yellow</item>
+        <item name="color">Green</item>
+        <item name="color">Blue</item>
+        <item name="color">White</item>
+        <item name="color">Black</item>
+        <item name="color">Purple</item>
+        <item name="color">Pink</item>
+        <item name="color">Gray</item>
+        <item name="color">Cyan Blue</item>
+        <item name="color">Magenta</item>
+        <item name="color">Red</item>
+        <item name="color">Orange</item>
+        <item name="color">Yellow</item>
+        <item name="color">Green</item>
+        <item name="color">Blue</item>
+        <item name="color">White</item>
+        <item name="color">Black</item>
+        <item name="color">Purple</item>
+        <item name="color">Pink</item>
+        <item name="color">Gray</item>
+        <item name="color">Cyan Blue</item>
+        <item name="color">Magenta</item>
+    </string-array>
 
 
 </resources>
