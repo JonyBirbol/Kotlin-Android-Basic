@@ -11,7 +11,7 @@
    <TextView
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
-      android:text="@string/text_1"
+      android:text="@string/app_name"
       android:textAlignment="center"/>
 
 
@@ -34,6 +34,17 @@
        android:text="@string/button_2"
        android:textAllCaps="false"
        android:textSize="14sp"/>
+
+   <Button
+       android:id="@+id/button3"
+       android:layout_marginTop="20dp"
+       android:background="@color/blue_grey_200"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/button_3"
+       android:textAllCaps="false"
+       android:textSize="14sp"/>
+
 
 
 </LinearLayout>

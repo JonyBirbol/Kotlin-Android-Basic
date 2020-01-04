@@ -41,7 +41,15 @@ class BRecyclerViewAdapterA (val recyclerViewListA: ArrayList<BRecyclerViewModel
             textViewName.text = recyclerViewA.name
             textViewAddress.text = recyclerViewA.address
 
+
+            itemView.setOnClickListener { v: View ->
+                var position: Int = getAdapterPosition()
+                Toast.makeText(v.getContext(), "Click detected on item $position", Toast.LENGTH_SHORT).show();
+
+            }
+        }
+        }
         }
 
-    }
-}
+
+

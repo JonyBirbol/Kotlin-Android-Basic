@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import com.jonyapps.kotlinandroidlearning.Model.BListViewModelC
 import com.jonyapps.kotlinandroidlearning.R
 import java.util.ArrayList
@@ -50,6 +51,8 @@ class BListViewAdapterC (private val context: Context, private val BListViewMode
             holder.iv = convertView.findViewById(R.id.imgView) as ImageView
 
             convertView.tag = holder
+
+
         } else {
             // the getTag returns the viewHolder object set as a tag to the view
             holder = convertView.tag as ViewHolder
@@ -57,6 +60,13 @@ class BListViewAdapterC (private val context: Context, private val BListViewMode
 
         holder.tvname!!.setText(BListViewModelCArrayList[position].getNames())
         holder.iv!!.setImageResource(BListViewModelCArrayList[position].getImage_drawables())
+
+        //OnClick Action
+        holder.tvname!!.setOnClickListener { v: View ->
+            Toast.makeText(v.getContext(), "Click detected on item", Toast.LENGTH_SHORT).show();
+
+        }
+
 
 
 

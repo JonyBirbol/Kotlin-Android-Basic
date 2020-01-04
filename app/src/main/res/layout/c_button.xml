@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_marginTop="50dp"
     android:layout_marginBottom="20dp"
-    tools:context=".BButton">
+    tools:context=".CButton">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,51 +20,50 @@
 
             <Button
                 android:id="@+id/button1_1"
-                android:background="@color/purple_200"
+                android:background="@color/light_blue_100"
                 android:layout_marginTop="50dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/button_2_1"
+                android:text="@string/button_3_1"
                 android:textAllCaps="false"
                 android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/button1_12"
-                android:background="@color/purple_200"
+                android:background="@color/light_blue_100"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/button_2_2"
+                android:text="@string/button_3_2"
                 android:textAllCaps="false"
                 android:textSize="14sp"/>
 
-                <Button
-                android:id="@+id/button1_13"
-                android:background="@color/purple_200"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/button_2_3"
-                android:textAllCaps="false"
-                android:textSize="14sp"/>
+            <Button
+            android:id="@+id/button1_13"
+            android:background="@color/light_blue_100"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_3_3"
+            android:textAllCaps="false"
+            android:textSize="14sp"/>
 
             <Button
                 android:id="@+id/button1_14"
-                android:background="@color/purple_200"
+                android:background="@color/light_blue_100"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/button_2_4"
+                android:text="@string/button_3_4"
                 android:textAllCaps="false"
                 android:textSize="14sp"/>
-
             <Button
                 android:id="@+id/button1_15"
-                android:background="@color/purple_200"
+                android:background="@color/light_blue_100"
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/button_2_5"
+                android:text="@string/button_3_5"
                 android:textAllCaps="false"
                 android:textSize="14sp"/>
 

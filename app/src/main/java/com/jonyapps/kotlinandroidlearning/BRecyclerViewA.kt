@@ -32,6 +32,10 @@ class BRecyclerViewA : AppCompatActivity() {
         users.add(BRecyclerViewModelA("BBBBBB", "cccccccccc ccccc"))
         users.add(BRecyclerViewModelA("CCCCCCCC", "dddddd dddddddd"))
         users.add(BRecyclerViewModelA("DDDDDDDD", "aaaaa aaaaaaaaa"))
+        users.add(BRecyclerViewModelA("AAAAAAAAAAAAA", "bbbbb bbbbb"))
+        users.add(BRecyclerViewModelA("BBBBBB", "cccccccccc ccccc"))
+        users.add(BRecyclerViewModelA("CCCCCCCC", "dddddd dddddddd"))
+        users.add(BRecyclerViewModelA("DDDDDDDD", "aaaaa aaaaaaaaa"))
 
         //creating our adapter
         val adapter = BRecyclerViewAdapterA(users)

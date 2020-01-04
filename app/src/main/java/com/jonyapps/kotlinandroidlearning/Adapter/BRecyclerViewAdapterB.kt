@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.jonyapps.kotlinandroidlearning.R
 
@@ -48,18 +49,19 @@ class BRecyclerViewAdapterB : RecyclerView.Adapter<BRecyclerViewAdapterB.ViewHol
             var itemTitle: TextView
             var itemDetail: TextView
 
+
             init {
                 itemImage = itemView.findViewById(R.id.item_image)
                 itemTitle = itemView.findViewById(R.id.item_title)
                 itemDetail = itemView.findViewById(R.id.item_detail)
 
                 //not working need to Fix later
-                /* itemView.setOnClickListener { v: View ->
+               /*  itemView.setOnClickListener { v: View ->
                      var position: Int = getAdapterPosition()
 
-                     //Toast.makeText(v.getContext(), "Click detected on item $position", Toast.LENGTH_SHORT).show();
-                     Snackbar.make(v, "Click detected on item $position",
-                         Snackbar.LENGTH_LONG).setAction("Action", null).show()
+                     Toast.makeText(v.getContext(), "Click detected on item $position", Toast.LENGTH_SHORT).show();
+                    // Snackbar.make(v, "Click detected on item $position",
+                        // Snackbar.LENGTH_LONG).setAction("Action", null).show()
                  }*/
             }
         }
@@ -74,6 +76,13 @@ class BRecyclerViewAdapterB : RecyclerView.Adapter<BRecyclerViewAdapterB.ViewHol
         viewHolder.itemTitle.text = titles[i]
         viewHolder.itemDetail.text = details[i]
         viewHolder.itemImage.setImageResource(images[i])
+
+
+        viewHolder.itemView.setOnClickListener { v: View ->
+
+            Toast.makeText(v.getContext(), "Click detected on item", Toast.LENGTH_SHORT).show();
+
+        }
     }
     override fun getItemCount(): Int {
         return titles.size

@@ -3,6 +3,7 @@ package com.jonyapps.kotlinandroidlearning
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ListView
+import android.widget.Toast
 import com.jonyapps.kotlinandroidlearning.Adapter.BListViewAdapterC
 import com.jonyapps.kotlinandroidlearning.Model.BListViewModelC
 
@@ -35,6 +36,7 @@ class BListViewC : AppCompatActivity() {
 
 
 
+
     }
 
     private fun populateList(): ArrayList<BListViewModelC> {
@@ -46,6 +48,7 @@ class BListViewC : AppCompatActivity() {
             imageModel.setNames(myImageNameList[i])
             imageModel.setImage_drawables(myImageList[i])
             list.add(imageModel)
+
         }
 
 

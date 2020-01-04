@@ -12,15 +12,26 @@
     <string name="button_1_6">Click to show AlertDialog-2</string>
     <string name="button_1_7">Click to show AlertDialog-3</string>
 
-    <string name="button_2">RecyclerView, List View</string>
+
+    <string name="button_2">RecyclerView, ListView</string>
     <string name="button_2_1">RecyclerView 1</string>
     <string name="button_2_2">RecyclerView 2</string>
     <string name="button_2_3">List View 1</string>
     <string name="button_2_4">List View 2</string>
     <string name="button_2_5">List View 3</string>
 
-    <string name="text_1">Learning Kotlin Basic</string>
 
+    <string name="button_3">Notifications</string>
+    <string name="button_3_1">Simple Notifications</string>
+    <string name="button_3_2">Notifications with Button</string>
+    <string name="button_3_3">Notifications With Image</string>
+    <string name="button_3_4">Notifications With Progressbar</string>
+    <string name="button_3_5">Notifications Browse Web</string>
+
+
+    <string name="channel_name">com.jonyapps.kotlinandroidlearning</string>
+    <string name="channel_description">kotlinandroidlearning</string>
+    <string name="snooze">Know the Color</string>
 
     <string-array name="Colors">
         <item name="color">Red</item>
